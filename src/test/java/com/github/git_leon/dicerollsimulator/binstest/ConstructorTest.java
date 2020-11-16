@@ -27,18 +27,6 @@ public class ConstructorTest {
         test(1, null);
     }
 
-
-    @Test(expected = NegativeArraySizeException.class)
-    public void test4() {
-        test(2, 1);
-    }
-
-
-    @Test(expected = NegativeArraySizeException.class)
-    public void test5() {
-        test(3, 2);
-    }
-
     @Test
     public void test6() {
         // given

@@ -9,28 +9,28 @@ public class IncrementBinTest {
     @Test
     public void test0() {
         Integer numberOfIncrements = 0;
-        Integer faceValueToIncrement = 1;
+        Integer faceValueToIncrement = 3;
         test(numberOfIncrements, faceValueToIncrement);
     }
 
     @Test
     public void test1() {
         Integer numberOfIncrements = 1;
-        Integer faceValueToIncrement = 1;
+        Integer faceValueToIncrement = 4;
         test(numberOfIncrements, faceValueToIncrement);
     }
 
     @Test
     public void test2() {
         Integer numberOfIncrements = 2;
-        Integer faceValueToIncrement = 1;
+        Integer faceValueToIncrement = 6;
         test(numberOfIncrements, faceValueToIncrement);
     }
 
     @Test
     public void test3() {
         Integer numberOfIncrements = 3;
-        Integer faceValueToIncrement = 1;
+        Integer faceValueToIncrement = 9;
         test(numberOfIncrements, faceValueToIncrement);
     }
 
