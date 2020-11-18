@@ -5,18 +5,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ConstructorTest {
-    @Test
-    public void test0() {
-        // given
-        Integer numberOfDie = null;
-        Integer numberOfTosses = null;
-
-        // when
-        Simulation simulation = new Simulation(numberOfDie, numberOfTosses);
-
-        // then
-        Assert.assertNotNull(simulation.getBins());
-    }
 
     @Test
     public void test1() {
@@ -56,17 +44,5 @@ public class ConstructorTest {
         // then
         Assert.assertNotNull(simulation.getBins());
     }
-
-    @Test
-    public void test4() {
-        // given
-        Integer numberOfDie = Integer.MAX_VALUE;
-        Integer numberOfTosses = Integer.MAX_VALUE;
-
-        // when
-        Simulation simulation = new Simulation(numberOfDie, numberOfTosses);
-
-        // then
-        Assert.assertNotNull(simulation.getBins());
-    }
+    
 }
